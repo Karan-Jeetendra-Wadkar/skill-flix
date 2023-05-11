@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+  background:black;
+  color: white;
+}
+
+.card{
+
+  background-color: black;
+}
+
+.header{
+  /* background-color: #0a173b; */
+
+  background:linear-gradient(rgb(53, 73, 152),#0a173b)
+}
