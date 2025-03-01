@@ -124,7 +124,7 @@ try{
           </>
         ) : (
           <>
-            <h1 className="text-xl font-bold"><img height={70} width={150} src="https://dornsife.usc.edu/assets/sites/233/imgs/SignUpNowButton.png"/></h1>
+            <h1 className="text-xl font-bold"><img height={70} width={150} src="https://png.pngtree.com/png-vector/20231124/ourmid/pngtree-sign-up-blue-glossy-web-icon-sign-up-png-image_10696347.png"/></h1>
 
             <div class="p-2 w-full md:w-1/3">
               <div class="relative">

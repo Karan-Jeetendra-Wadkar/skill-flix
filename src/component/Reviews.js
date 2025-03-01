@@ -65,7 +65,7 @@ const Reviews = ({ id, prevRating, userRated }) => {
         timer: 3000,
       })
     }
-    setloading(false);
+    setloading(false); 
   };
 
   useEffect(() => {
@@ -74,7 +74,7 @@ const Reviews = ({ id, prevRating, userRated }) => {
 
       setData([]);
 
-      let quer = query(reviewsRef, where("movieid", "==", id));
+      let quer = query(reviewsRef, where("movieid", "==", id)); 
 
       const queryShots = await getDocs(quer);
 
